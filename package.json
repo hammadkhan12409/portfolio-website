@@ -1,0 +1,29 @@
+{
+  "name": "bootstrap-v5",
+  "version": "1.0.0",
+  "description": "Learning bootstrap v5 with sass",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "keywords": [
+    "Bootstrap",
+    "bootstrap-v5",
+    "sass",
+    "learn-bootstrap",
+    "learn-sass"
+  ],
+  "author": "Hammad Khan",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.32.12"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3",
+    "bootstrap": "^5.0.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "nodemailer": "^6.7.8"
+  }
+}
